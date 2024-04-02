@@ -1,17 +1,18 @@
 <?php
 
-function getLenght($s) {
+function getLength($s) {
     $length = 0;
-    for ($i = 0; isset($s[$i]); $i++) {
+    while ($s[$length] != null) {
         $length++;
     }
     return $length;
 }
 
+
 function format_tags($input_str) {
     $output_str = '';
     $newline_flag = false;
-    for ($i = 0; $i < getLenght($input_str); $i++) {
+    for ($i = 0; $i < getLength($input_str); $i++) {
         $char = $input_str[$i];
         if ($char == '<') {
             if ($newline_flag) {
