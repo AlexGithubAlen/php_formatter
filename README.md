@@ -1,6 +1,55 @@
-How to use?
-- Locate to same folder where are files located
-- Paste to cmd: php formatter.php test.txt
+### --- XML/HTML Reformatter User Manual ---
+
+#### Introduction
+The XML/HTML Reformatter is a PHP program designed to format XML or HTML code by properly indenting the tags.
+
+#### Installation
+1. Ensure PHP is installed on your system. If not, download and install PHP from the official PHP website: [php.net](https://www.php.net/).
+2. Save the provided PHP code in a file with a `.php` extension (e.g., `formatter.php`).
+
+#### Usage
+1. **Running the Program**:
+   - Open your command line interface (CLI).
+   - Navigate to the directory where the PHP file is located.
+   - Execute the program by running the following command:
+     ```
+     php formatter.php < test.txt
+     ```
+   - Replace `test.txt` with the path to your input file containing XML or HTML code. Alternatively, you can provide input directly through stdin.
+
+2. **Input**:
+   - The program accepts XML or HTML code as input.
+   - Ensure that the input does not contain syntactical errors. Attribute values are ignored in the formatting process.
+
+3. **Output**:
+   - The reformatted XML or HTML code is printed to the console.
+   - Tags are properly indented to enhance readability.
+
+#### Example
+Suppose you have the following XML code saved in a file named `test.txt`:
+
+```xml
+<apply><csymbol encoding="OpenMath"><msub><mi>P</mi><mn>1</mn></msub></csymbol><ci>x</ci></apply>
+```
+
+Running the program with this input will produce the following output:
+
+```xml
+<apply>
+  <csymbol>
+    <msub>
+      <mi>P</mi>
+      <mn>1</mn>
+    </msub>
+  </csymbol>
+  <ci>x</ci>
+</apply>
+```
+
+#### Notes
+- This program is intended for basic XML/HTML formatting needs and may not handle complex scenarios or edge cases.
+- Ensure that your input XML/HTML code does not contain syntactical errors, as the program assumes valid input.
+- For advanced formatting requirements or handling specific cases, consider modifying the code accordingly.
 
 
 
