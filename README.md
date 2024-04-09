@@ -85,6 +85,13 @@ The input to the program is simple XML or HTML code.
    - Calls the `format_tags()` function to format the input string.
    - Prints the formatted string to stdout.
 
+#### How to test?
+1. Install PHPUnit using Composer (if not already installed):
+   - composer require --dev phpunit/phpunit
+2. Run PHPUnit tests using the Composer script:
+   - composer test
+
+
 #### Usage
 1. Ensure PHP is installed on your system.
 2. Save the PHP code in a file (e.g., `reformatter.php`).
