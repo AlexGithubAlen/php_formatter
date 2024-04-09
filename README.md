@@ -52,6 +52,20 @@ Running the program with this input will produce the following output:
 - For advanced formatting requirements or handling specific cases, consider modifying the code accordingly.
 
 
+### --- List of specific references ---
+1. **PHP Manual - Strings**:
+   - Link: [https://www.php.net/manual/en/language.types.string.php](https://www.php.net/manual/en/language.types.string.php)
+   - This page from the official PHP manual provided detailed information about working with strings in PHP, including string manipulation functions that were relevant to the formatter.
+
+2. **PHPUnit Documentation**:
+   - Link: [https://phpunit.de/documentation.html](https://phpunit.de/documentation.html)
+   - The PHPUnit documentation was invaluable for understanding how to write and execute unit tests in PHP. It provided guidance on test case structure, assertions, and running tests.
+
+3. **Stack Overflow**:
+   - Link: [https://stackoverflow.com/](https://stackoverflow.com/)
+   - Stack Overflow was a valuable resource for troubleshooting specific issues and finding solutions to common problems encountered while developing the PHP formatter.
+
+
 
 ### --- Documentation for coders ---
 
